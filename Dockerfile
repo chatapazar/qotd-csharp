@@ -6,6 +6,6 @@ ADD . .
 
 RUN dotnet publish -c Release
 
-EXPOSE 10000
+EXPOSE 8080
 
 CMD ["dotnet", "./bin/Release/netcoreapp3.0/publish/qotd-csharp.dll"]
